@@ -10,6 +10,4 @@
 
 @interface Person : NSObject
 
-- (void)run;
-
 @end

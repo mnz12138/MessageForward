@@ -19,7 +19,7 @@
     [super viewDidLoad];
     
     Person *p = [[Person alloc] init];
-    [p run];
+    [p performSelector:@selector(run)];
 }
 
 - (void)didReceiveMemoryWarning {
